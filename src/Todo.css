@@ -1,0 +1,36 @@
+.todo {
+  background-color: #ffffff;
+  padding: 24px 35px;
+  margin-bottom: 13px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+.completion-checkbox {
+  margin-right: 35px;
+}
+/* .task {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+} */
+.delete-task {
+  float: right;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.delete-task img {
+  width: 25px;
+}
+.deadline {
+  font-size: 14px;
+  color: #7a7a7a;
+  padding-left: 55px;
+}
+.deadline.missed {
+  color: #ff0000;
+}
+.deadline-icon {
+  width: 15px;
+}

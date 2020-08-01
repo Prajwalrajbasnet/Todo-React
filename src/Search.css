@@ -1,0 +1,16 @@
+.search-bar {
+  background-color: #e4e3e3;
+  border-radius: 25px;
+  padding: 15px 20px;
+}
+.search-task {
+  border: none;
+  outline: none;
+  width: calc(100% - 100px);
+  background: none;
+  margin-left: 15px;
+}
+.search-icon {
+  width: 25px;
+  float: left;
+}

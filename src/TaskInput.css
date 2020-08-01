@@ -1,0 +1,39 @@
+.new-entry {
+  background-color: #ffffff;
+  margin-top: 35px;
+}
+.new-entry::after {
+  clear: both;
+  display: table;
+  content: "";
+}
+.task-field {
+  float: left;
+  border: none;
+  outline: none;
+  padding: 18px 20px;
+  width: calc(100% - 370px);
+}
+.deadline-input {
+  float: left;
+  margin-top: 10px;
+}
+.add-btn {
+  margin-top: 8px;
+  float: right;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.add-btn img {
+  width: 35px;
+}
+@media only screen and (max-width: 580px) {
+  .task-field {
+    width: 90%;
+  }
+  .deadline-input {
+    margin-left: 20px;
+  }
+}
